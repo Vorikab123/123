@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+   
+}
+a{
+    text-decoration: none;
+}
+div{
+
+}
+/* header start */
+.header{
+   
+    background: url(https://thumbs.dreamstime.com/b/chess-game-luxury-wooden-set-player-moving-pieces-chessboard-strategy-tactics-games-photo-collage-banner-piece-image-239774641.jpg);
+    z-index: index 1;
+   
+ 
+} 
+
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-top: -100px;
+    height: 250px;
+}
+.header__nav-2,a{
+   text-align: center;
+   color: white;
+}
+.header__nav-1{
+    font-size: 25px;
+    color: white;
+    animation-name:unset;
+}
+
+/* header end */
+/* nav start */
+.container{
+  
+    display: flex;
+  
+}
+.container_ img{
+width: 500px;
+height: 500px;
+}
+.container_{
+    display: flex;
+    justify-content: space-around;
+   align-content:center;
+
+}
+.container__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#container__text{
+    width: 100px;
+  font-size: 30px;
+    line-height: 40px;
+    padding: 20px 0;
+    
+    
+}
+#container__text-2{
+    width: 100px;
+   font-size: 30px;
+    line-height: 30px;
+    color: rgb(47, 71, 71);
+
+}
+.container_border{
+    margin: 5px;
+    border: 5px solid wheat;
+    width: 1200px;
+
+}
+/* header end */
+/* main start */
+.container__main{
+    display: flex;
+    height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color:indigo;
+}
+.main_background{
+    background: rgb(16, 14, 19);
+}
+/* main end */
+/* img start */
+.img__text img{
+    width: 100px;
+    height: 100px;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+.img__text p{
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+/* img end */
+Example
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;
+animation: html 5s linear;} /* Green */
+.css {width: 80%; background-color: #2196F3;animation: css 5s linear; } /* Blue */
+.js {width: 65%; background-color: #f44336; animation: js 5s linear;} /* Red */
+.php {width: 60%; background-color: #808080;animation: php 5s linear;} /* Dark Grey */
+
+/* animation start */
+.animation{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(30, 26, 30) ;
+    padding: 30px solid rgb(30, 26, 30) ;
+}
+.animation__img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+
+}
+.animation__img video{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+
+}
+.animation__h1{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    background-color:rgb(30, 26, 30)
+}
+/* animation end */
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    0% {
+        width: 50%;
+    }
+    0% {
+        width: 100%;
+}
+}
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+    0% {
+        width: 50%;
+    }
+    0% {
+        width: 100%;
+}
+}
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+    0% {
+        width: 50%;
+    }
+    0% {
+        width: 100%;
+}
+}
+@keyframes php {
+    0% {
+        width: 0%;
+    }
+    0% {
+        width: 50%;
+    }
+    0% {
+        width: 100%;
+}
+}
+@media all and (max-width: 1220px){
+    .animation{
+        flex-wrap: wrap;
+    }
+   
+}
+@media all and (max-width: 960px){
+   .container_ {
+    display: flex;
+    flex-wrap: wrap;
+/* flex-direction: column; */
+   }
+   }
+   @media all and (max-width: 425px){
+   .container_{
+    width: 200px;
+   }
+   .img{
+    flex-wrap: wrap;
+   }
+   }
+   @media all and (max-width: 375px){
+    .img{
+       flex-wrap: wrap;
+    }
+    .header__nav{
+        font-size: 10px;
+     }
+   .animation__h1{
+        font-size: 30px;
+     }
+     .container__main{
+        font-size: 40px;
+     }
+     .container_border{
+        font-size: 35px;
+     }
+     .animation{
+        justify-content: center;
+     }
+   }
+   @media all and (max-width: 320px){
+     .img{
+        flex-wrap: wrap;
+     }
+     .header__nav{
+        font-size: 10px;
+     }
+   .animation__h1{
+        font-size: 30px;
+     }
+     .container__main{
+        font-size: 40px;
+     }
+     .container_border{
+        font-size: 35px;
+     }
+     .container_{
+        width: 100px;
+     }
+    }
+   
+
+
